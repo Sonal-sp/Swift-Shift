@@ -53,12 +53,13 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16 w-full">
           
-          <div className="flex items-center gap-2 shrink-0 select-none">
-            <Truck className="h-5 w-5 text-indigo-600" strokeWidth={2.2} />
-            <span className="font-extrabold text-xl tracking-tight text-custom-main">
-              Swift<span className="text-indigo-600">Shift</span>
-            </span>
-          </div>
+          {/* FIXED LOGO CONTAINER: Added explicit text-slate-900 and dark:text-white to ensure visibility */}
+<div className="flex items-center gap-2 select-none">
+  <Truck className="h-6 w-6 text-indigo-600 dark:text-indigo-400" />
+  <span className="font-extrabold text-xl tracking-tight text-slate-900 dark:text-white">
+    Swift<span className="text-indigo-600 dark:text-indigo-400">Shift</span>
+  </span>
+</div>
           
           <div className="hidden md:flex items-center gap-6 text-sm font-semibold ml-auto">
             {NAVIGATION_LINKS.map((link) => (
