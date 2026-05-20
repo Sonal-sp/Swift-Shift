@@ -1,14 +1,16 @@
 import React from 'react';
-import Navbar from './components/NavBar';
-import Hero from './components/Hero';
-import Services from './components/Services';
-import FAQ from './components/FAQ';
-import ContactForm from './components/ContactForm';
-import Footer from './components/Footer';
+// Make sure this matches the file name exactly with a capital B
+import NavBar from './components/NavBar.jsx'; 
+import Hero from './components/Hero.jsx';
+import Services from './components/Services.jsx';
+import FAQ from './components/FAQ.jsx';
+import ContactForm from './components/ContactForm.jsx';
+import Footer from './components/Footer.jsx';
 
 export default function App() {
   return (
     <div className="w-full min-h-screen bg-white text-slate-900 dark:bg-slate-900 dark:text-slate-100 transition-colors duration-300">
+      {/* Update the component tag to use capital B */}
       <NavBar />
       <main className="pt-16">
         <Hero />
