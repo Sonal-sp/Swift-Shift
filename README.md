@@ -5,6 +5,11 @@ A modern, responsive landing page built for a logistics and relocation service. 
 Designed with modular components and reusable data structures, the project demonstrates modern frontend development practices while maintaining excellent readability and maintainability.
 
 ---
+## Live demo link:
+
+Check the live demo of the project : https://swift-shift-xi.vercel.app/
+
+---
 
 ## ✨ Features
 
